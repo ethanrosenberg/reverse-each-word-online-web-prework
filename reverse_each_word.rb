@@ -3,4 +3,6 @@ def reverse_each_word(sentence)
   
   array.map {|item| item.reverse}.join(" ")
   
+  array.collect {|item| item.reverse}.join(" ")
+  
 end
